@@ -1,0 +1,52 @@
+body {
+	background-color: #FFF;
+}
+.container-fluid {
+	text-align:center;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding: 0;
+}
+
+
+
+.container-fluid div {
+	
+	
+	text-align: center;
+	color: #000;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 0; 
+	padding: 0;
+}
+
+
+.box1 {
+	background-color: #EA0E2B;
+	height: 400px;
+
+}
+.box2 {
+	background-color: #0493D5;
+	height: 200px;
+}
+.box3 {
+	background-color: #047932;
+	height: 200px;
+}
+.box4{
+	background-color: #003476;
+	height: 400px;
+}
+.box5{
+	background-color: #B4D2F7;
+	height: 400px;
+}
+
+@media screen and (max-width: 998px){
+	.box2 ,.box3 {
+		height: 400px;
+	}
+	
+}

@@ -1,0 +1,65 @@
+.container-fluid {
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: 0;
+	margin-right: 0;
+	height: 600px;
+}
+
+
+.container-fluid div{
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: 0;
+	margin-right: 0;
+	height: 600px;
+}
+
+
+.box1{
+	background-color: red;
+	z-index: 1;
+
+	
+
+
+}
+.box2{
+	background-color: green;
+	font-size: 25px;
+	color: #FFF;
+	
+	
+}
+.ham-icon{
+	display: none;
+}
+
+@media screen and (max-width: 767px) {
+	.box1div{
+		position: absolute;
+		transform: translate(-380px,0);
+	}
+	
+	.ham-icon{
+	z-index: 3;
+	position: relative;
+	top: 10px;
+	left: 10px;
+	display:block; 
+}
+	.open {
+		z-index: 2;
+	position: absolute;
+	transform: translate(0,0);
+	transition: transform 0.3s ease;
+	
+}
+
+.content{
+	position: relative;
+	padding-left: 380px;
+}
+	
+}
+
